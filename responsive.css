@@ -1,0 +1,105 @@
+
+@media screen and (max-width: 1280px) {
+
+
+
+    body, html{
+        height: 100%;
+    }
+    .switch {
+        left: 40%;
+        top: 0.8125rem;
+        font-size: 1.0625rem;
+        position: relative;
+        display: inline-block;
+        width: 3.5em;
+        height: 2em;
+        
+       }
+
+    .pie{
+        height: 17%;
+        width: 100%;
+        
+    }
+
+    .aparece{
+        width: 30%;
+        left: 36%;   
+        
+        
+    }
+
+    .tfaq{
+        width: 26%;
+        left: 38%;  
+    }
+
+
+
+    .pinicio{
+        font-size: 25px;
+        padding: 12px;
+        top:150px;
+        
+    }
+    
+    svg{
+        width: 100%;
+        position: relative;
+        top: 67%;
+        
+    }
+    
+    img{
+        display: none;
+       
+    }
+    
+    .overlay{
+        height: 100%;
+        width: 100%;
+    }
+    
+
+
+    h1{ 
+        font-family: 'Fjalla One', sans-serif;
+        color: var(--tipewhite);
+        position: relative;
+        top: 15%;
+        font-size: 150%; 
+        left: 0%;
+        display: inline;
+        animation-name: none;
+
+        
+    }
+
+    summary{
+        height: 90%;
+        width: 90%;
+        left: 1%;
+    }
+
+
+
+
+
+
+
+       
+    
+}
+
+@media screen and (max-width: 767px) {
+    
+}
+
+@media screen and (max-width: 600px) {
+    
+}
+
+@media screen and (max-width: 400px) {
+    
+}

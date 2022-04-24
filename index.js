@@ -15,6 +15,7 @@ checkbox.addEventListener("change", function() {
         console.log("Chequeado")
         document.documentElement.style.setProperty('--backgroudwhite', '#111111');
         document.documentElement.style.setProperty("--tipewhite", "#111111")
+        document.documentElement.style.setProperty("--contrario", "white")
         console.log(variable)
         scrolltop()
 
@@ -22,6 +23,7 @@ checkbox.addEventListener("change", function() {
     else{
         document.documentElement.style.setProperty('--backgroudwhite', '#f3f4f5');
         document.documentElement.style.setProperty('--tipewhite', 'white');
+        document.documentElement.style.setProperty('--contrario', 'black');
         scrolltop()
     }
 })
