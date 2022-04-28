@@ -10,6 +10,8 @@ function scrolltop(){
     })
 }
 
+
+
 checkbox.addEventListener("change", function() {
     if(this.checked) {
         console.log("Chequeado")
@@ -19,6 +21,7 @@ checkbox.addEventListener("change", function() {
         document.getElementById("img1").src="./imagenes/plantilla1_negro.png"
         document.getElementById("img2").src="./imagenes/plantilla2_negro.png"
         document.getElementById("img3").src="./imagenes/plantilla3_negro.png"
+
         console.log(variable)
         scrolltop()
 
@@ -30,6 +33,8 @@ checkbox.addEventListener("change", function() {
         document.getElementById("img1").src="./imagenes/plantilla 1.png"
         document.getElementById("img2").src="./imagenes/plantilla2.png"
         document.getElementById("img3").src="./imagenes/plantilla 3.png"
+
         scrolltop()
     }
 })
+

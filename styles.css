@@ -105,6 +105,7 @@ h1{
     animation: typing 1.5s steps(22), blink .5s infinite step-end alternate;
     -webkit-animation: typing 1.5s steps(22), blink .5s infinite step-end alternate;
     overflow: hidden;
+    
 }
 
 @keyframes typing{
@@ -139,7 +140,7 @@ h1{
     width: 10%;
     left: 45.5%;
     position:relative;
-    top: -0.625rem;
+    top: 10%;
     border-radius: 0.9375rem; 
     -webkit-border-radius: 0.9375rem;
     -moz-border-radius: 0.9375rem;
@@ -155,7 +156,7 @@ h1{
     position: relative; 
     font-size: 3.125rem;
     position:relative;
-    top: -127px;
+    top: -1.7%;
     height: 6.25rem;
     border-radius: 0.9375rem;
     -webkit-border-radius: 0.9375rem;
@@ -163,7 +164,7 @@ h1{
     -ms-border-radius: 0.9375rem;
     -o-border-radius: 0.9375rem;
     width: 12.5rem;
-    left: 45.22%;
+    left: 45.2%;
     cursor: default;
 
 
@@ -205,6 +206,13 @@ h1{
 } 
 
 
+
+
+
+
+
+
+
 svg {width: 100%; height: auto; z-index: 1;}
 
 body{
@@ -236,8 +244,8 @@ body{
 
 /* Switch de modo oscuro */
  .switch {
-     left: 870px;
-     top: 0.8125rem;
+     left: 48%;
+     top: 4%;
      font-size: 1.0625rem;
      position: relative;
      display: inline-block;
@@ -317,7 +325,7 @@ summary {
     -o-border-radius: 10px;
     width: 50%;
     left: 25%;
-    top: -100px ; 
+    top: 0px ; 
 
 
     
@@ -333,13 +341,11 @@ summary {
     position: absolute;
     content: "-";
     right: 20px;
-    
 
 }
-  details > summary::-webkit-details-marker {
-    display: none;
-    
 
+details > summary::-webkit-details-marker {
+     display: none;
 }
 
 details[open] summary ~ * {
@@ -350,6 +356,7 @@ details[open] summary ~ * {
     0%    {opacity: 0; margin-top: -10px}
     100%  {opacity: 1; margin-top: 0px}
 }
+
 
 p{
      font-size: 120%;
@@ -365,7 +372,7 @@ p{
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     position: relative;
     width: 50%;
-    top: -110px;
+    top: -10px;
     align-items: center;
     left:25.4%;
     padding: 5px;
@@ -376,9 +383,7 @@ p{
 
 
 
-
-
-
 *{
     font-family: 'Fjalla One', sans-serif;  
 }
+
