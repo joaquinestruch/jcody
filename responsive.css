@@ -1,3 +1,9 @@
+:root{
+    --backgroudwhite: #f3f4f5;
+    --tipewhite: white;
+    --contrario: black;
+    --colorletra: #23e9aa;
+}
 
 @media screen and (max-width: 1280px) {
 
@@ -40,7 +46,9 @@
     .pinicio{
         font-size: 25px;
         padding: 12px;
-        top:150px;
+        top: 5%;
+        text-align: left;
+        
         
     }
     
@@ -62,17 +70,34 @@
     
 
 
-    h1{ 
-        font-family: 'Fjalla One', sans-serif;
-        color: var(--tipewhite);
-        position: relative;
-        top: 15%;
-        font-size: 150%; 
-        left: 0%;
-        display: inline;
-        animation-name: none;
+    .h1_main{
+        display: none;
+    }
 
-        
+    .h1_1{
+        display:flex;
+        text-align: center;
+        max-width: 85%;
+        max-width: 85%;
+        border-right: 0px;
+        top: 7%;
+        font-size: 370%;
+        left: 1%;
+    }
+    .h1_2{
+        display:flex;
+        text-align: justify;
+        max-width: 85%;
+        border-right: 0px;
+        left: 1%;
+        top: 5%;
+    }
+    .h1_3{
+        display:flex;
+        text-align: center;
+        left:1%;
+        top: 2%;
+        max-width: 85%;
     }
 
     summary{
@@ -81,9 +106,46 @@
         left: 1%;
     }
 
-
-
-
+    button {
+        padding: 15px 25px;
+        border: unset;
+        border-radius: 15px;
+        color: var(--colorletra);
+        z-index: 1;
+        background: var(--backgroudwhite);
+        position: relative;
+        font-weight: 1000;
+        font-size: 17px;
+        -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        transition: all 250ms;
+        overflow: hidden;
+        top: 9%;
+        text-align: center;
+       }
+       
+       button::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 0;
+        border-radius: 15px;
+        background-color: var(--colorletra);
+        z-index: -1;
+        -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        transition: all 250ms
+       }
+       
+       button:hover {
+        color: var(--backgroudwhite);
+       }
+       
+       button:hover::before {
+        width: 100%;
+       }
 
 
 

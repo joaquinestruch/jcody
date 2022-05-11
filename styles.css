@@ -106,6 +106,20 @@ h1{
     -webkit-animation: typing 1.5s steps(22), blink .5s infinite step-end alternate;
     overflow: hidden;
     
+   
+    
+}
+
+.h1_1{
+    display: none;
+}
+
+.h1_2{
+    display: none;
+}
+
+.h1_3{
+    display: none;
 }
 
 @keyframes typing{
@@ -196,6 +210,9 @@ h1{
     
 }
 
+.boton1{
+    display: none;
+}
 
 
 .faq{
