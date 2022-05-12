@@ -107,6 +107,7 @@
     }
 
     button {
+        cursor: pointer;
         padding: 15px 25px;
         border: unset;
         border-radius: 15px;
