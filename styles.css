@@ -35,7 +35,7 @@ html{
 
 .cartas{
     position: relative;
-    top: 8.75rem;
+    top: 95px  ;
     height: 26.25rem;
     right: -3.75rem;
     transition: all .2sx;
@@ -94,20 +94,20 @@ svg{height: 100%; z-index: -1; position: relative; top: -200px;}
 h1{
     font-family: 'Fjalla One', sans-serif;
     color: var(--tipewhite);
+    text-align: center;
     position: relative;
     top: 15%;
     font-size: 360%;
     display: block;
     white-space: nowrap;
     border-right: 4px solid;
-    left: 30%;
+    text-align: center;
     width: 22ch;
     animation: typing 1.5s steps(22), blink .5s infinite step-end alternate;
     -webkit-animation: typing 1.5s steps(22), blink .5s infinite step-end alternate;
     overflow: hidden;
-    
-   
-    
+    max-width: 50%;
+    left: 30%;
 }
 
 .h1_1{
@@ -226,11 +226,51 @@ h1{
 
 
 
+button {
+    cursor: pointer;
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: var(--colorletra);
+    z-index: 1;
+    background: var(--backgroudwhite);
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    top: -33%;
+    text-align: center;
+   }
+   
+   button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: var(--colorletra);
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   button:hover {
+    color: var(--backgroudwhite);
+   }
+   
+   button:hover::before {
+    width: 100%;
+   }
 
 
 
-
-svg {width: 100%; height: auto; z-index: 1;}
+svg {width: 100%; height: auto; z-index: 1; top: -20%;}
 
 body{
     background-color: var(--backgroudwhite);
