@@ -49,13 +49,19 @@
         top: 5%;
         text-align: left;
         
-        
     }
+
+    .pinicio br{
+        display: none;
+    }
+    
     
     svg{
         width: 100%;
         position: relative;
         top: 67%;
+        display: none;
+
         
     }
     
