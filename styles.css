@@ -226,7 +226,7 @@ h1{
 
 
 
-button {
+.boton_agregar {
     cursor: pointer;
     padding: 15px 25px;
     border: unset;
@@ -245,7 +245,7 @@ button {
     text-align: center;
    }
    
-   button::before {
+   .boton_agregar::before {
     content: "";
     position: absolute;
     top: 0;
@@ -260,11 +260,11 @@ button {
     transition: all 250ms
    }
    
-   button:hover {
+   .boton_agregar:hover {
     color: var(--backgroudwhite);
    }
    
-   button:hover::before {
+   .boton_agregar:hover::before {
     width: 100%;
    }
 
@@ -434,11 +434,84 @@ p{
     left:25.4%;
     padding: 5px;
     text-align: center;
-    color:var(--contrario)
+    color:var(--tipewhite)
 }
 
 
+.aviso_cookies{
+    display: none;
+    background-color: var(--backgroudwhite);
+    padding: 10px;
+    width: calc(100% - 40px);
+    max-width: 300px;
+    line-height: 150%;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 30px;
+    left: 33px;
+    z-index: 100;
+    padding-top: 15px;
+    text-align: center;
+}
 
+.aviso_cookies.activo {
+    display: block;
+}
+
+.aviso_cookies .titulo_cookies, .aviso_cookies .p_cookies{
+    margin-bottom: 20px;
+    color: var(--colorletra);
+}
+
+.aviso_cookies .boton_cookie {
+    width: 100%;
+    background-image: linear-gradient(        to bottom right,         #68ebb3 0%, #4ce7b6 25%, #18e3ba 50%, #00dfbe 75%, #00dbc3 100%    );
+    border: none;
+    color: var(--tipewhite);
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: .3s ease all;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+
+}
+
+.aviso_cookies .boton_cookie:hover{
+    transition: .3s ease all;
+    
+}
+
+.aviso_cookies .a_cookies{
+    color: #00dbc3;
+    text-decoration: none;
+    font-size: 14px;
+    transition: .3s ease all;
+}
+
+.aviso_cookies .a_cookies:hover{
+    transition: .3s ease all;
+    text-decoration: underline;
+}
+
+
+.fondo_aviso_cookies{
+    display: none;
+    background-color: rgba(0,0,0, .20);
+    position: fixed;
+    z-index: 99;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.fondo_aviso_cookies.activo{
+    display: block;
+}
 
 *{
     font-family: 'Fjalla One', sans-serif;  

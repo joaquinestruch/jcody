@@ -1,0 +1,23 @@
+*{
+    font-family: 'Fjalla One', sans-serif;  
+    padding: 5px;
+    top: -1px;
+}
+
+body{
+    background-image: linear-gradient(        to bottom right,         #68ebb3 0%, #4ce7b6 25%, #18e3ba 50%, #00dfbe 75%, #00dbc3 100%    );
+
+}
+
+.fondo_main{
+    border-radius: 40px;
+    background-color: white;
+}
+
+p{
+    color: black;
+}
+
+a{
+    color:#00dbc3;
+}
