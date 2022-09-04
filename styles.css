@@ -92,7 +92,7 @@ svg{height: 100%; z-index: -1; position: relative; top: -200px;}
 
 
 h1{
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'sans-serif', sans-serif;
     color: var(--tipewhite);
     text-align: center;
     position: relative;
@@ -132,7 +132,7 @@ h1{
 
 
 .pinicio{
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'sans-serif', sans-serif;
     color: var(--tipewhite);
     text-align: center;
     position: relative;
@@ -164,7 +164,7 @@ h1{
 }
 
 .tfaq{ 
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'sans-serif', sans-serif;
     text-align: center;
     color: var(--tipewhite);
     position: relative; 
@@ -469,7 +469,7 @@ p{
     background-image: linear-gradient(        to bottom right,         #68ebb3 0%, #4ce7b6 25%, #18e3ba 50%, #00dfbe 75%, #00dbc3 100%    );
     border: none;
     color: var(--tipewhite);
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'sans-serif', sans-serif;
     text-align: center;
     padding: 15px 20px;
     cursor: pointer;
@@ -515,6 +515,6 @@ p{
 }
 
 *{
-    font-family: 'Fjalla One', sans-serif;  
+    font-family: 'sans-serif', sans-serif;  
 }
 
