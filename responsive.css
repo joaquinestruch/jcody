@@ -36,6 +36,10 @@
         
     }
 
+    .faq{
+        z-index: 98;
+    }
+
     .tfaq{
         width: 26%;
         left: 38%;  
@@ -56,12 +60,15 @@
     }
     
     
-    svg{
+    .overlay svg{
+        bottom: 0px;
         width: 100%;
+        height: 100%;
         position: relative;
-        top: 67%;
+        background-color: red;
+        background: 0px;
         display: none;
-
+        
         
     }
     
@@ -70,8 +77,10 @@
     }
     
     .overlay{
-        height: 100%;
+        
+        height: 84%;
         width: 100%;
+        
     }
     
 
@@ -112,7 +121,13 @@
         left: 1%;
     }
 
+    iframe{
+        max-width: 300px;
+        max-height: 300px;
+    }
+
     .boton_agregar {
+        z-index: 99;
         cursor: pointer;
         padding: 15px 25px;
         border: unset;
@@ -127,7 +142,7 @@
         box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
         transition: all 250ms;
         overflow: hidden;
-        top: 5%;
+        top: 9%;
         text-align: center;
        }
        
@@ -161,13 +176,13 @@
 }
 
 @media screen and (max-width: 767px) {
-    
+
 }
 
 @media screen and (max-width: 600px) {
-    
+
 }
 
 @media screen and (max-width: 400px) {
-    
+
 }
